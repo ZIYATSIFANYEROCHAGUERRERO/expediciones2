@@ -1,0 +1,127 @@
+/* Estilos para el cuerpo del documento */
+body {
+  background-color: #3d0320;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #353232;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el encabezado */
+h1 {
+  text-align: center;
+  margin: 50px 0;
+}
+
+/* Estilos para el formulario */
+form {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e1c8f1;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input, select {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: #531024;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Estilos para la imagen */
+img {
+  border: 5px solid #5c0253;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  width: 100px;
+  height: 100px;
+}
+
+/* Estilos para el botón "edades" */
+button[type="button"] {
+  background-color: #da0d0d;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Estilos para el artículo */
+article {
+  width: 80%;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ec8697;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+
+/* Estilos para el campo "No. de Conceptos" */
+#titulo-conceptos {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#n-conceptos {
+  margin-left: 10px;
+  width: 50px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  text-align: center;
+}
+
+#generar {
+  background-color: #092964;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+/* Estilos para los conceptos */
+.concepto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.concepto input {
+  width: 50%;
+}
+
+.concepto button {
+  background-color: #ff5f5f;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5;
+}
